@@ -1,13 +1,15 @@
-name: Lint
+name: Code Analysis
 
 on:
   push:
     branches: [main]
   pull_request:
-    branches: [main]
+    paths-ignore:
+      - '**.md'
 
 jobs:
   lint:
+    name: ESLint & Prettier
     runs-on: ubuntu-latest
 
     steps:
