@@ -22,7 +22,7 @@ An interactive web application for experimenting with dCBOR encoding and Uniform
 
 **Try it locally:**
 ```bash
-bun dev
+bun run dev --filter=@blockchain-commons/playground
 ```
 
 **Live Demo:** https://leonardocustodio.github.io/blockchain-commons
@@ -41,15 +41,6 @@ bun install
 
 # Build all packages
 bun run build
-
-# Run development servers
-bun run dev
-
-# Run linting
-bun run lint
-
-# Type checking
-bun run check-types
 ```
 
 ## 📚 Specifications & Reference Implementations
