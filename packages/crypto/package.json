@@ -1,5 +1,5 @@
 {
-  "name": "@blockchain-commons/crypto",
+  "name": "@leonardocustodio/blockchain-commons/crypto",
   "version": "1.0.0-alpha.1",
   "type": "module",
   "description": "A TypeScript implementation of Blockchain Commons cryptographic components. Supports key generation, signing, verification, encryption, and post-quantum cryptography.",
@@ -46,8 +46,8 @@
   "author": "Blockchain Commons",
   "license": "Apache-2.0",
   "dependencies": {
-    "@blockchain-commons/dcbor": "workspace:*",
-    "@blockchain-commons/uniform-resources": "workspace:*",
+    "@leonardocustodio/blockchain-commons/dcbor": "workspace:*",
+    "@leonardocustodio/blockchain-commons/uniform-resources": "workspace:*",
     "@noble/curves": "^1.8.0",
     "@noble/hashes": "^1.7.0",
     "libsodium-wrappers": "^0.7.15",

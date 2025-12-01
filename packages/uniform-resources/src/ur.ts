@@ -1,5 +1,5 @@
-import type { Cbor } from "@blockchain-commons/dcbor";
-import { decodeCbor } from "@blockchain-commons/dcbor";
+import type { Cbor } from "@leonardocustodio/blockchain-commons/dcbor";
+import { decodeCbor } from "@leonardocustodio/blockchain-commons/dcbor";
 import { InvalidSchemeError, TypeUnspecifiedError, UnexpectedTypeError, URError } from "./error.js";
 import { URType } from "./ur-type.js";
 
@@ -10,8 +10,8 @@ import { URType } from "./ur-type.js";
  *
  * @example
  * ```typescript
- * import { UR } from '@blockchain-commons/uniform-resources';
- * import { CBOR } from '@blockchain-commons/dcbor';
+ * import { UR } from '@leonardocustodio/blockchain-commons/uniform-resources';
+ * import { CBOR } from '@leonardocustodio/blockchain-commons/dcbor';
  *
  * // Create a UR from a CBOR object
  * const cbor = CBOR.fromArray([1, 2, 3]);
